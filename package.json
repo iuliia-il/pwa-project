@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node ./server/server.js"
   },
   "author": "Iuliia Ilinykh",
   "license": "ISC",
