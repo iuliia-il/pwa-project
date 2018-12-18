@@ -22,6 +22,8 @@ passport.use(new Strategy(jwt, function (jwt_payload, done) {
     done();
 }));
 
+express().use(express.static(path.join(__dirname, './client/views')));
+
 //let mongoDBUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/pwa';
 let mongoDBUri = process.env.MONGODB_URI || 'mongodb://admin:123456z@ds143734.mlab.com:43734/pwa';
 mongoose.connect(mongoDBUri);
@@ -48,7 +50,7 @@ require('./sockets')(io);
 //    console.log('Server started on port 7777');
 //});
 
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     console.log('Listening on ${ PORT }');
 });
 
