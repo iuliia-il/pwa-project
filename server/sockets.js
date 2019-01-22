@@ -6,7 +6,7 @@ module.exports = io => {
     io.on('connection', function (socket) {
         socket.emit('connected', "You're connected");
 
-        socket.join('room1');
+        socket.join('all');
 
         socket.on('msg', content => {
             const obj = {
