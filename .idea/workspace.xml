@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da71699c-4b2e-4c44-bf97-2f3220b5c943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/sockets.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/sockets.js" afterDir="false" />
-    </list>
+    <list default="true" id="da71699c-4b2e-4c44-bf97-2f3220b5c943" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -197,12 +194,12 @@
       <workItem from="1545175162925" duration="721000" />
       <workItem from="1545212483094" duration="12000" />
       <workItem from="1545215035007" duration="250000" />
-      <workItem from="1548182876743" duration="267000" />
+      <workItem from="1548182876743" duration="904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40252000" />
+    <option name="totallyTimeSpent" value="40889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,7 +225,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24052005" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24052005" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
