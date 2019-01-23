@@ -12,8 +12,8 @@ module.exports = io => {
             const obj = {
                 date: new Date(),
                 content: content,
-                //username: socket.id
-                username: user.username
+                username: socket.id
+                //username: user.username
             };
 
             MessageModel.create(obj, err => {
