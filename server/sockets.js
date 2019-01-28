@@ -27,7 +27,7 @@ module.exports = io => {
             MessageModel
                 .find({})
                 .sort({date: -1})
-                .limit(10)
+                .limit(5)
                 .sort({date: 1})
                 .lean()
                 .exec( (err, messages) => {
